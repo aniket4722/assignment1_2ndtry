@@ -322,8 +322,7 @@ colour change when hovering over contact email -Nathan Rance */
 
 
 #about_body {
-      padding: 20px;
-
+    
       background-color: #f4f4f4;
       line-height: 2; /* more readable text by spacing */
   }
@@ -331,7 +330,6 @@ colour change when hovering over contact email -Nathan Rance */
   /* Header styles */
   header {
       color: #fff;
-      /*padding: 10px 0;*/
       text-align: center;
   }
   
