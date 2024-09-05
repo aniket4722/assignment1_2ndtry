@@ -394,5 +394,74 @@ colour change when hovering over contact email -Nathan Rance */
       text-decoration: none;
       border-bottom: 2px solid #333;  /*bottom border for mail link*/
   }
+
+/* CSS for jobs page - Aniket Moharana */
+
+#bodyjobs {
+    background : linear-gradient(to bottom, black, rgb(96, 211, 249)); /* Sets background colour for the body, from apply page, Nathan Rancie */
+}
+
+#mainjobs {
+    padding: 30px; /* Adds padding to the main content */
+}
+
+.labeljobs {
+    font-size: 1.3em; /* Sets font size for labels */
+    font-weight: bold; /* Makes labels bold */
+}
+
+#searchjobs {
+    background: white; /* Sets background colour for the search division */
+    border-radius: 5px; /* Rounds the corners of the search division */
+    padding: 20px; /* Adds padding inside the search division */
+    text-align: center; /* Centres align the text in the search division */
+    margin: 30px} /* Adds a margin around the search division */
+
+#searchbar {
+    width:90%; /* Sets width of the search bar */
+    padding: 10px; /* Adds padding inside the search bar */
+    font-size: 1em; /* Sets font size for the search bar */
+    margin: 25px; /* Adds a margin around the search bar */
+
+}
+
+.selection {
+    padding: 10px; /* Adds padding to the selection dropdowns */
+    font-size: 0.9em; /* Sets font size for dropdown list */
+    margin: 5px; /* Adds a margin around selection dropdowns */
+    cursor: pointer; /* Changes cursor to pointer when hovering over*/
+}
+
+.buttonjobs {
+    background-color: #232323; /* Sets background colour of buttons */
+    color: white; /* Sets text color of buttons */
+    padding: 5px 5px; /* Adds padding to buttons */
+    font-size: 1em; /* Sets font size of buttons */
+    border: none; /* Removes the border from buttons */
+    border-radius: 5px; /* Rounds the corners of buttons */
+    cursor: pointer; /* Changes cursor to pointer when hovering */
+}
+
+.buttonjobs:hover {
+    background: #959595; /* Changes background colour when hovering over*/
+}
+
+.description {
+    display: flex; /* Use flexbox to lay paragraphs next to heading*/
+    align-items: center; /* Centres elements vertically */
+}
+
+.description p {
+    padding-left: 5px; /* Adds padding to paragraphs within description, spacing from headings */
+}
+
+.sectionjobs {
+    background: white; /* Sets background colour for job sections */
+    margin-top: 35px; /* Adds top margin */
+    margin-bottom: 35px; /* Adds bottom margin */
+    margin: 25px; /* Adds a margin around the sections */
+    padding: 25px; /* Adds padding inside the sections */
+    border-radius: 5px;} /* Rounds the corners of the sections */
+
   
   
