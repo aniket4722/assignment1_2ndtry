@@ -23,7 +23,7 @@ body {font-family: "DM Serif Text", serif;
 
 
 /* apply pages background colour change -Nathan Rancie */
-#apply_body{background: linear-gradient(to bottom, black, rgb(96, 211, 249)) !important}
+#apply_body{background: linear-gradient(to bottom, black, rgb(96, 211, 249)) }
 
 
 
@@ -81,60 +81,60 @@ legend {background-color: white;
   /* CSS for index page */
 
 
-header {position:relative !important;
-      display:block !important;
-      max-width:100% !important;
-      min-height: 50% !important;
-      height: 7vh !important;
-      margin: auto !important;
-      padding:1% 1% !important;
+header {position:relative ;
+      display:block ;
+      max-width:100% ;
+      min-height: 50% ;
+      height: 7vh ;
+      margin: auto ;
+      padding:1% 1% ;
       /* background:#292828; */
-      background: black !important;
-      color:#d9d9d9 !important;
+      background: black ;
+      color:#d9d9d9 ;
 }
 
 header h1 {
-      line-height: 45px !important;
-      font-style: normal !important;
-      font-size:2.5em !important;
-      margin: 0 !important;
-      position: relative !important;
-      display:inline !important;
-      border-bottom: 2px solid #d9d9d9 !important;
-      padding-right: 30% !important;
+      line-height: 45px ;
+      font-style: normal ;
+      font-size:2.5em ;
+      margin: 0 ;
+      position: relative ;
+      display:inline ;
+      border-bottom: 2px solid #d9d9d9 ;
+      padding-right: 30% ;
       
       /* badding-top: */
 }
 nav {
-      line-height: 45px !important;
-      padding-left: 0% !important;
-      padding-right: 0% !important;
-      padding-top: 0px !important;
-      padding-bottom: 50px !important;
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
-      list-style: none !important;
+      line-height: 45px ;
+      padding-left: 0% ;
+      padding-right: 0% ;
+      padding-top: 0px ;
+      padding-bottom: 50px ;
+      margin-top: 0 ;
+      margin-bottom: 0 ;
+      list-style: none ;
       /* float:right; */
-      display:inline !important;
-      color:white !important;
+      display:inline ;
+      color:white ;
 
 }
 
 nav a {
-      color:#d9d9d9 !important;
-      text-decoration: none !important;
+      color:#d9d9d9 ;
+      text-decoration: none ;
       padding: 5px;
-      border-bottom: 2px solid #d9d9d9 !important;
-      padding-right: 3% !important;
+      border-bottom: 2px solid #d9d9d9 ;
+      padding-right: 3% ;
       /* padding-right: 50px; */
-      white-space: nowrap !important;
-      text-align: center !important;
+      white-space: nowrap ;
+      text-align: center ;
 }
 
 nav a:hover {
-      font-style: underline !important;
-      color: white !important;
-      border-bottom: 2px solid white !important;
+      font-style: underline ;
+      color: white ;
+      border-bottom: 2px solid white ;
 }
 
 #index_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249))}
